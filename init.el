@@ -6,14 +6,22 @@
 
 (require 'theme)
 (require 'init-startup)
-(require 'init-package)
+
 (require 'init-tabbar)
 (require 'init-paredit)
 (require 'init-keys)
 (require 'highlight-parentheses)
+(require 'init-auto-complete)
 
 (require 'init-generic)
 (require 'init-linum)
+
+;; 可以延后加载的
+(run-with-idle-timer
+ 1 t
+ #'(lambda ()
+     (require 'init-package)
+     ))
 
 (provide 'init)
 

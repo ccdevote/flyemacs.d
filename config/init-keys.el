@@ -11,6 +11,7 @@
    ("<C-tab>" . tabbar-backward-tab)          ;移动到后一个标签
    ("<C-S-iso-lefttab>" . tabbar-forward-tab) ;移动到前一个标签
    ))
+
 (lazy-set-autoload-key
  '(
    ("C-s-b" . tabbar-backward-tab-other-window) ;向前移动其他窗口的标签
@@ -19,5 +20,10 @@
    ("M-s-r" . tabbar-select-end-tab)          ;移动到最右边的标签
    )
  "tabbar-extension")
+
+(lazy-set-key
+ '(
+   ("<C-S-return>" . indent-region) ;移动到前一个标签
+   ))
 
 (provide 'init-keys)
