@@ -6,10 +6,11 @@
 
 (require 'theme)
 (require 'init-startup)
+(require 'init-package)
 
 (require 'init-tabbar)
 (require 'init-paredit)
-(require 'init-keys)
+;(require 'init-keys)
 (require 'highlight-parentheses)
 (require 'init-auto-complete)
 
@@ -20,9 +21,10 @@
 (run-with-idle-timer
  1 t
  #'(lambda ()
-     (require 'init-package)
+     
      ))
 
 (provide 'init)
 
 
+(put 'set-goal-column 'disabled nil)
