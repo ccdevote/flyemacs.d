@@ -1,7 +1,8 @@
 (require 'lazy-set-key)
-
+;;; full screen
 (global-set-key [f11] 'full-screen) ;; 启动全屏的快捷键
 
+;;; tabbar
 (lazy-set-key
  '(
    ("s-b" . tabbar-backward-tab)              ;移动到后一个标签
@@ -21,9 +22,12 @@
    )
  "tabbar-extension")
 
+;;; indent
 (lazy-set-key
  '(
-   ("<C-S-return>" . indent-region) ;移动到前一个标签
+   ("<C-S-return>" . indent-region) 	;格式化当前代码
    ))
+
+;;; flymake
 
 (provide 'init-keys)
