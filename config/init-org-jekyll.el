@@ -1,0 +1,6 @@
+(require 'org-jekyll-mode)
+(setq org-jekyll/jekyll-project-root "/home/afanty/blog/")
+(setq org-jekyll/org-mode-project-root "/home/afanty/blog/org")
+(setq org-jekyll/org-export-with-toc t)
+(setq org-jekyll-mode t)
+(provide 'init-org-jekyll)
