@@ -29,5 +29,10 @@
    ))
 
 ;;; flymake
+(lazy-set-key
+ '(
+   ("<C-c n>" . flymake-goto-next-error)
+   )
+ )
 
 (provide 'init-keys)
