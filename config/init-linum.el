@@ -1,5 +1,6 @@
 (dolist (hook (list
                'c-mode-hook
+	       'org-mode-hook
                'emacs-lisp-mode-hook
                'lisp-interaction-mode-hook
                'lisp-mode-hook
