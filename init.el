@@ -3,7 +3,7 @@
   (unless (>= emacs-major-version minver)
     (error "Your Emacs is too old -- this config requires v%s or higher" minver)))
 
-;;; 加载配置文件
+;;; 加载配置文件 .emacs.d/config/
 (add-to-list 'load-path (expand-file-name "config" user-emacs-directory))
 
 (require 'theme)
