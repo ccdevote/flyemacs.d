@@ -86,7 +86,9 @@
 (add-hook
  'org-mode-hook
  '(lambda ()
-    (require 'init-org)))
+    (require 'init-org)
+    (org-jekyll-mode 1)			;开启org-mode时开启jekyll-mode
+    ))
 ;;; ### Auto-fill ###
 ;;; --- 自动换行
 (setq default-fill-column 100)          ;默认显示 100列就换行

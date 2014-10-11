@@ -95,7 +95,7 @@
       (concat org-directory "Dream.org"))
 (setq org-remember-templates            ;设置 Remeber 模板信息
       '(
-        ("Todo" ?o "* TODO %?\n  %i\n  %a" "/usr/share/deepin-emacs/Org/Dream.org" "Other")
+        ("Todo" ?o "* TODO %?\n  %i\n  %a" (expand-file-name "Org/Dream.org" user-emacs-directory) "Other")
         ))
 
 
