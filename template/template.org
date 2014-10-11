@@ -1,1 +1,9 @@
-#+TITLE:hello
+#+TITLE:${1:title}
+#+AUTHOR: ${2:user-name}
+#+EMAIL: ${3:user-email}
+
+#+OPTIONS: ^:{}
+#+YAML/CATEGORY: ${4:技术博客}
+#+YAML/TAGS:[$5]
+
+$0
