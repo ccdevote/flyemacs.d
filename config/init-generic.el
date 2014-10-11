@@ -1,4 +1,4 @@
-;;(emacs-session-restore)                 ;加载窗口布局
+;; (emacs-session-restore)                 ;加载窗口布局
 (setq
     backup-by-copying t ; 自动备份
     backup-directory-alist
@@ -10,8 +10,8 @@
 
 (display-time-mode t)
 
-(setq inhibit-startup-screen t)         ;关闭起动时闪屏
-(setq inhibit-splash-screen t)          ;关闭起动时闪屏
+;; (setq inhibit-startup-screen t)         ;关闭起动时闪屏
+;; (setq inhibit-splash-screen t)          ;关闭起动时闪屏
 (setq initial-scratch-message nil)      ;禁止在草稿缓存里面显示处始化信息
 (fset 'yes-or-no-p 'y-or-n-p)           ;以 y/n代表 yes/no
 (blink-cursor-mode -1)                  ;指针不闪动
@@ -29,7 +29,7 @@
 (setq auto-revert-mode 1)               ;自动更新buffer
 (setq message-log-max t)                ;设置message记录全部消息, 而不用截去
 (setq void-text-area-pointer nil)       ;禁止显示鼠标指针
-(setq enable-recursive-minibuffers t)   ;minibuffer 递归调用命令
+(setq enable-recursive-minibuffers nil)   ;minibuffer 递归调用命令
 (setq history-delete-duplicates t)      ;删除minibuffer的重复历史
 (put 'narrow-to-region 'disabled nil)   ;开启变窄区域
 (setq print-escape-newlines t)          ;显示字符窗中的换行符为 \n
