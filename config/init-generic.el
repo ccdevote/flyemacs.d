@@ -9,9 +9,11 @@
     version-control t) ; 多次备份
 
 (display-time-mode t)
+(setq display-time-24hr-format t)
+(setq display-time-day-and-date t)
+(setq inhibit-startup-screen t)         ;关闭启动时闪屏
+(setq inhibit-splash-screen t)          ;关闭启动时闪屏
 
-;; (setq inhibit-startup-screen t)         ;关闭起动时闪屏
-;; (setq inhibit-splash-screen t)          ;关闭起动时闪屏
 (setq initial-scratch-message nil)      ;禁止在草稿缓存里面显示处始化信息
 (fset 'yes-or-no-p 'y-or-n-p)           ;以 y/n代表 yes/no
 (blink-cursor-mode -1)                  ;指针不闪动
