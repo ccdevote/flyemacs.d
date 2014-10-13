@@ -206,7 +206,7 @@
  '(message-header-to ((t (:foreground "DarkRed" :weight bold))))
  '(minibuffer-prompt ((((background dark)) (:foreground "green"))))
  '(mm-uu-extract ((((class color) (background dark)) (:background "Black" :foreground "Gold3"))))
- '(mode-line ((t (:background "#3E0303" :foreground "#3E0303" :height 1))))
+ '(mode-line ((t (:background "#3E0303" :foreground "#ffffff" :height 120))))
  '(mode-line-highlight ((t (:height 1))))
  '(mode-line-inactive ((t (:background "gray10" :foreground "gray10" :height 1))))
  '(modelinepos-column-warning ((t (:foreground "Yellow"))))
