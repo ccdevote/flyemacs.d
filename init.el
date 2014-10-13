@@ -15,6 +15,9 @@
 (require 'init-keys)
 (require 'highlight-parentheses)
 (require 'init-auto-complete)
+(require 'init-site-lisp)
+(require 'smex)
+(require 'init-ido)
 
 (require 'init-generic)
 (require 'init-linum)

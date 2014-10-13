@@ -28,6 +28,14 @@
    ("<C-S-return>" . indent-region) 	;格式化当前代码
    ))
 
+;;; smex
+(lazy-set-key
+ '(
+   ("M-x" . smex)
+   ("M-x" . smex-major-mode-commands)
+   ("C-c C-c M-x" . execute-extended-command)
+   ))
+
 ;;; flymake
 (lazy-set-key
  '(
