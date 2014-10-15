@@ -19,12 +19,13 @@
 (require 'init-generic)
 (require 'init-linum)
 (require 'init-mode)
+(require 'init-auto-insert)
+(require 'init-yasnippet)
 ;; 可以延后加载的
 (run-with-idle-timer
  1 t
  #'(lambda ()
-     (require 'init-yasnippet)
-     (require 'init-auto-insert)
+     
      ))
 
 ;; (add-hook 'after-init-hook

@@ -25,9 +25,7 @@
 (require-package 'yasnippet)
 
 ;;; Code:
-(add-to-list `yas/root-directory (expand-file-name "snappets/" user-emacs-directory))
 (yas-global-mode 1)
-
 
 ;; Disable yasnippet mode on some mode.
 (dolist (hook (list
