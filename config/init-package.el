@@ -81,6 +81,8 @@ re-downloaded in order to locate PACKAGE."
 
 
 (require-package 'fullframe)
+(require-package 'smex)
+
 (fullframe list-packages quit-window)
 
 
