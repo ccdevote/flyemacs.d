@@ -25,7 +25,7 @@
 (run-with-idle-timer
  1 t
  #'(lambda ()
-     
+     ;需要延迟加载的放在这里
      ))
 
 ;; (add-hook 'after-init-hook

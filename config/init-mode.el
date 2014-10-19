@@ -2,6 +2,7 @@
 
 ;;; --- 绑定扩展名到特定的模式
 (dolist (elt-cons '(
+		    ("\\.wiki" . confluence-mode)
                     ("\\.markdown" . markdown-mode)
                     ("\\.md" . markdown-mode)
                     ("\\.coffee$" . coffee-mode)
