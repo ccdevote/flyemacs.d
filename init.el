@@ -17,7 +17,7 @@
 (require 'init-auto-complete)
 (require 'init-site-lisp)
 (require 'smex)
-(require 'init-ido)
+;;(require 'init-ido)
 
 (require 'init-generic)
 (require 'init-linum)
@@ -31,8 +31,4 @@
      ;需要延迟加载的放在这里
      ))
 
-;; (add-hook 'after-init-hook
-;; 	  (lambda () "DOCSTRING" (interactive)
-;; 	    (message "init completed in %.2fms"
-;; 		     (- after-init-time before-init-time))))
 (provide 'init)
